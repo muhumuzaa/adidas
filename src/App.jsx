@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import {Nav} from './components/Nav'
 
 import {Hero,
   PopularProducts,
@@ -12,13 +13,13 @@ import {Hero,
   Footer,
   } from './sections'
 
-const App = () =>(
+const App = () =>{
+  
+  return (
   <main className='relative'>
-   <nav>
-     <Nav /> 
-   </nav>
+   <Nav />
    <section className='xl: padding-1 wide:padding-r padding-b'>
-     <Hero /> 
+   < Hero />
    </section>
 
    <section className='padding'> <PopularProducts /> </section>
@@ -35,6 +36,6 @@ const App = () =>(
 
    <section className='padding bg-black padding-x padding-t pb-8'> <Footer /> </section>
   </main>
-)
+)}
 
 export default App

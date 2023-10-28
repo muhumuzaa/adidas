@@ -1,10 +1,10 @@
 
-const PopularProducts = () =>{
+const CustomerReviews = () =>{
     return (
         <div>
-            PopularProducts
+            CustomerReviews
         </div>
     )
 }
 
-export default PopularProducts;
+export default CustomerReviews;
